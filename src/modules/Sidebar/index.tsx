@@ -81,13 +81,13 @@ const Sidebar: FC<{
   return (
     <div className="flex flex-col h-full bg-white">
       <div className="p-4 mt-2 flex items-baseline justify-between">
-        <span className="text-3xl text-gradient font-[800]">ChatGPT666</span>
+        <span className="text-3xl text-gradient font-[800]">夜葬 AI</span>
         <a
-          href="https://github.com/GPTGenius/chatgpt-vercel"
+          href="https://yebury.cn/"
           target="_blank"
           rel="noreferrer"
         >
-          <i className="ml-2 ri-github-fill text-xl" />
+          <i className="/" />
         </a>
       </div>
       <div className="p-2 flex items-center justify-between mb-4">
