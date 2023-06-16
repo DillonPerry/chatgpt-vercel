@@ -83,11 +83,11 @@ const Sidebar: FC<{
       <div className="p-4 mt-2 flex items-baseline justify-between">
         <span className="text-3xl text-gradient font-[800]">夜葬 AI</span>
         <a
-          href="https://www.yebury.cn/"
+          href="https://14.lovechin.cn/"
           target="_blank"
           rel="noreferrer"
         >
-          <i className="/" />
+          <i className="ml-2 ri-github-fill text-xl" />
         </a>
       </div>
       <div className="p-2 flex items-center justify-between mb-4">
