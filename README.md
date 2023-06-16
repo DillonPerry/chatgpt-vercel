@@ -25,7 +25,7 @@ Create a private ChatGPT website with one-click for free using Vercel, support m
 - 🌏 Switch between various languages, currently supporting Simplified Chinese and English
 - 💭 Local chat history saved with search, import and export functionality
 
-## Live Demo
+## Live Demo.
 - [chatgpt-vercel-sample](https://chatgpt-vercel-sample.vercel.app/)
 - [chatgpt-vercel-zh-sample](https://chatgpt-vercel-zh-sample.vercel.app/)
 
