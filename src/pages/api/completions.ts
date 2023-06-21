@@ -29,7 +29,7 @@ export const post: APIRoute = async ({ request }) => {
 
   if (pwd && password !== pwd) {
     return new Response(
-      JSON.stringify({ msg: 'No password or wrong password' }),
+      JSON.stringify({ msg: '密码错误或未填写密码' }),
       {
         status: 401,
       }
@@ -37,7 +37,7 @@ export const post: APIRoute = async ({ request }) => {
   }
 
   if (!key) {
-    return new Response(JSON.stringify({ msg: 'No API key provided' }), {
+    return new Response(JSON.stringify({ msg: '请填写您的apikey' }), {
       status: 400,
     });
   }
